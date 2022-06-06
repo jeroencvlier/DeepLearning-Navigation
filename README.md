@@ -33,7 +33,7 @@ To run this project yourself, you will need to follow the installation instructi
 
 2. To set up the game, follow [this link](https://github.com/udacity/deep-reinforcement-learning/blob/master/p1_navigation/README.md#getting-started) for instructions to download the environment.
 
-3. Download this repository to your local computer.
+3. Download [this repository](https://github.com/jeroencvlier/DeepLearning-Navigation) to your local computer.
 
 4. Install additional requirements. To easily install the requirements, navigate to the location of the requirements folder in the terminal and run the following command:
 ```
