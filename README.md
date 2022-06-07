@@ -4,7 +4,7 @@
 
 ### <u>Introduction:</u> 
 
-The goal of this project is to train a Neural Network to navigate through an environment set up by [Unity](https://unity.com/) to collect yellow bananas and avoid collecting blue bananas. 
+The goal of this project is to train a neural network to navigate through an environment set up by [Unity](https://unity.com/) to collect yellow bananas and avoid collecting blue bananas. 
 
 
 ### <u>Environment</u>
@@ -21,9 +21,7 @@ After the input of each action, the environment returns the next state and the r
 
 
 ### <u>Solving the environment</u>
-For the environment to be considered resolved, the agent must collect a total of 13 points within 1800 episodes. An episode is considered single gameplay. Once the agent achieves an average of the given target over the last 100 episodes, the environment is considered solved. 
-
-For a more challenging task, a target of 15 reward points in under 500 episodes would be an achievement.
+For the environment to be considered resolved, the agent must collect an average score of 13 over the last 100 episodes within 1800 episodes. An episode is considered single gameplay. For a more challenging task, a target of 15 reward points in under 500 episodes would be an achievement.
 
 ### <u>Getting Started</u>
 
