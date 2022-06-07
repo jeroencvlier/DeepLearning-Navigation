@@ -2,13 +2,13 @@
 
 ![GIF of Trained Network](Images/BananaAnimation1.gif)
 
-### <u>Introduction:</u> 
+### <u>Introduction</u> 
 
 The goal of this project is to train a neural network to navigate through an environment set up by [Unity](https://unity.com/) to collect yellow bananas and avoid collecting blue bananas. 
 
 
 ### <u>Environment</u>
-Once the Unity environment has been set up, the agent will navigate around collecting yellow bananas for a reward of +1 and blue bananas for a reward of -1. The state-space consists of an array of 37 elements describing the environment in front of the agent, including the objects, and velocity of the agent. 
+Once the Unity environment has been set up, the agent will navigate around collecting yellow bananas for a reward of +1 and blue bananas for a reward of -1. The state space consists of an array of 37 elements describing the environment in front of the agent, including the objects and velocity of the agent. 
 
 There are 4 possible actions in this environment:
 
@@ -17,11 +17,11 @@ There are 4 possible actions in this environment:
 - **`2`** - Left.
 - **`3`** - Right.
 
-After the input of each action, the environment returns the next state and the reward received for that action. This next state is then fed back into the Neural Network to predict the next state.
+After the input of each action, the environment returns the next state and the reward received for that action. This next state is then fed back into the neural network to predict the next action.
 
 
 ### <u>Solving the environment</u>
-For the environment to be considered resolved, the agent must collect an average score of 13 over the last 100 episodes within 1800 episodes. An episode is considered single gameplay. For a more challenging task, a target of 15 reward points in under 500 episodes would be an achievement.
+For the environment to be considered solved, the agent must collect an average score of 13 over the last 100 episodes within 1800 episodes. An episode is considered a single gameplay. For a more challenging task, a target of 15 reward points in under 500 episodes would be an achievement.
 
 ### <u>Getting Started</u>
 
