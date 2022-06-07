@@ -37,7 +37,7 @@ The Deep Q-Network consistently solved the environment within 400 episodes succe
 
 
 #### <u>Testing the Trained Network</u>
-After running 100 iterations of the trained network, an average score of 16.53 was achieved.
+After running 100 iterations of the trained network, an average score of 15.91 was achieved.
 
 ![GIF of Trained Network](Images/TainedNetworkScores.png)
 
